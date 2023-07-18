@@ -28,6 +28,7 @@ const defaultProps = {
  *     - Else re-route to the login page
  */
 function ConciergePage(props) {
+    // comment
     useFocusEffect(() => {
         if (_.has(props.session, 'authToken')) {
             // Pop the concierge loading page before opening the concierge report.
